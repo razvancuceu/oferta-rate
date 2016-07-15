@@ -1,0 +1,566 @@
+input, textarea, select, a {
+  outline: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:after, *:before {
+  box-sizing: inherit;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Roboto';
+  color: #565656;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  height: 100%;
+}
+
+.content {
+  position: relative;
+  left: 0;
+  right: 0;
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+  height: auto;
+  min-height: 100% !important;
+}
+
+.content .blue-square {
+  position: absolute;
+  top: -300;
+  left: -730;
+  width: 850px;
+  height: 850px;
+  background-color: #06caea;
+  transform: rotate(45deg);
+}
+
+.content .site-name {
+  position: absolute;
+  top: 110px;
+  left: 50px;
+  color: #f1f1f1;
+  font-weight: 100;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.content .site-la {
+  position: relative;
+  left: 400px;
+  font-size: 100px;
+  font-weight: 100;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.content .te-bagi {
+  position: relative;
+  top: 200px;
+  left: 140px;
+  font-size: 180px;
+  font-weight: 100;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.content .stim-ca {
+  position: relative;
+  top: 200px;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.content .pizza {
+  position: relative;
+  display: block;
+  top: 250px;
+  height: 120px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background: url("img/food-bkg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.content .pizza img {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  left: 50px;
+}
+
+.content .pizza span.pizza-text {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  color: #f1f1f1;
+  font-size: 150px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 120px;
+  display: inline-block;
+  margin-left: 0px;
+}
+
+.content .pizza span.permonth {
+  position: absolute;
+  right: 0px;
+  top: 45px;
+  transform: rotate(270deg);
+  background-color: #565656;
+  width: 120px;
+  height: 30px;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 30px;
+}
+
+.content .you-get {
+  position: relative;
+  margin-top: 530px;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.content .you-get img {
+  margin-right: 10px;
+}
+
+.content .you-get span.plus {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 50px 0 30px 0;
+}
+
+.content .you-get span.plus .badges {
+  padding-top: 30px;
+}
+
+.content .you-get span.plus .badges img {
+  margin: 0 40px;
+}
+
+.content .offers {
+  padding-top: 40px;
+  margin-top: 100px;
+  height: 444px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.content .offers .sm-offer {
+  width: 28%;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin: 0 1%;
+}
+
+.content .offers .sm-offer .sm-offer-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.content .offers .sm-offer .sm-offer-body {
+  border: 1px solid #06caea;
+  padding: 15px 0 10px 0;
+}
+
+.content .offers .sm-offer .sm-offer-body .sm-offer-price {
+  position: absolute;
+  width: calc(100% - 2px);
+  height: 50px;
+}
+
+.content .offers .sm-offer .sm-offer-body .sm-offer-price .sm-offer-price-number {
+  position: absolute;
+  margin-left: calc(50% - 28px);
+  top: -2px;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.content .offers .sm-offer .sm-offer-body .sm-offer-price .three-dig {
+  margin-left: calc(50% - 44px);
+}
+
+.content .offers .sm-offer .sm-offer-body .sm-offer-price .sm-offer-price-currency {
+  position: absolute;
+  margin-left: 160px;
+  top: -10px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.content .offers .sm-offer .sm-offer-body .sm-offer-price .three-dig-cur {
+  margin-left: 175px;
+}
+
+.content .offers .sm-offer .sm-offer-body .sm-offer-get {
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.content .offers .sm-offer .sm-offer-body .sm-offer-get p {
+  margin: 5;
+}
+
+.content .offers .sm-offer .sm-offer-body .sm-offer-get p.blue {
+  color: #06caea;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.content .offers .sm-offer .sm-offer-body:hover {
+  background-color: white;
+}
+
+.content .offers .offer {
+  width: 30%;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin: -15px 5% 0 5%;
+}
+
+.content .offers .offer .offer-title {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 300;
+  background-color: #06caea;
+  color: #f1f1f1;
+  padding: 5px;
+}
+
+.content .offers .offer .offer-body {
+  border: 1px solid #06caea;
+  padding: 15px 0 10px 0;
+}
+
+.content .offers .offer .offer-body .offer-price {
+  position: absolute;
+  width: calc(100% - 2px);
+  height: 50px;
+}
+
+.content .offers .offer .offer-body .offer-price .offer-price-number {
+  position: absolute;
+  margin-left: calc(50% - 28px);
+  top: -2px;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.content .offers .offer .offer-body .offer-price .offer-price-currency {
+  position: absolute;
+  margin-left: 170px;
+  top: -10px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.content .offers .offer .offer-body .offer-get {
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.content .offers .offer .offer-body .offer-get p {
+  margin: 5;
+}
+
+.content .offers .offer .offer-body .offer-get p.blue {
+  color: #06caea;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.content .offers .offer .offer-body:hover {
+  background-color: white;
+}
+
+.content .write-us {
+  position: relative;
+  top: 250px;
+  font-size: 29px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.content .write-us span a {
+  color: #06caea;
+  text-decoration: none;
+}
+
+.content .write-us form {
+  border: 2px solid #565656;
+  border-style: dashed;
+  max-width: 582px;
+  padding: 20px;
+  padding-bottom: 45px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.content .write-us span.label {
+  display: block;
+}
+
+.content .write-us span.label input {
+  height: 35px;
+  font-size: 29px;
+  font-weight: 100 !important;
+  color: #565656;
+  background-color: #f1f1f1;
+  border: 0px;
+  border-bottom: 1px solid #ddd;
+}
+
+.content .write-us span.label input:focus {
+  border: 1px solid #d8d8d8;
+  background-color: #f9f9f9;
+}
+
+.content .write-us span.label-tip select {
+  font-size: 25px;
+  font-weight: 100;
+  color: #06caea;
+  background-color: transparent;
+}
+
+.content .write-us span.label-mesaj {
+  position: relative;
+  margin-top: 20px;
+  width: 522px;
+  height: 380px;
+  margin: 0 auto;
+  top: 20px;
+}
+
+.content .write-us span.label-mesaj span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 5px 5px 0;
+  z-index: 999;
+  background-color: #f1f1f1;
+}
+
+.content .write-us span.label-mesaj textarea {
+  position: absolute;
+  top: 20px;
+  left: 22px;
+  border: 1px solid #ddd;
+  background-color: #f1f1f1;
+  width: 500px;
+  height: 280px;
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #565656;
+  padding: 10px;
+  padding-top: 20px;
+  font-weight: 300;
+}
+
+.content .write-us span.label-mesaj input[type="submit"] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #06caea;
+  height: 50px;
+  width: 240px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 300;
+  border: 0;
+  cursor: pointer;
+  transition: 500ms ease-in-out;
+}
+
+.content .write-us span.label-mesaj input[type="submit"]:hover {
+  background-color: white;
+  color: #06caea;
+  border: 1px solid #06caea;
+}
+
+.content .write-us span.label-nume input {
+  width: 430px;
+}
+
+.content .write-us span.label-email input, .content .write-us span.label-firma input {
+  width: 435px;
+}
+
+.content .write-us span.label-site input {
+  width: 390px;
+}
+
+.content .write-us span.label-telefon input {
+  width: 415px;
+}
+
+.content .write-us span.label-tip {
+  margin-left: -140px;
+  margin-top: 10px;
+}
+
+.content .write-us span.label-tip select {
+  width: 230px;
+}
+
+.content .push {
+  position: relative;
+  height: 450px;
+  z-index: -999;
+}
+
+.content .thank-you {
+  position: absolute;
+  right: 0;
+  bottom: 130px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.content .thank-you span {
+  color: #06caea;
+}
+
+.big-price {
+  position: absolute;
+  top: 150px;
+  height: 200px;
+  width: 100%;
+  background-color: #565656;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.big-price span.number {
+  position: relative;
+  top: -5px;
+  left: 100px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 190px;
+  font-weight: 500;
+}
+
+.big-price span.currency {
+  position: relative;
+  top: -100px;
+  left: 100px;
+  font-size: 50px;
+  display: inline-block;
+  line-height: 40px;
+  font-weight: 100;
+}
+
+.you-get-title, .write-us-title {
+  position: absolute;
+  top: 1050px;
+  height: 80px;
+  background-color: #06caea;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 80px;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+
+.write-us-title {
+  top: 2500px;
+  background-color: #C91A05;
+}
+
+.write-us-title span {
+  font-weight: 500;
+}
+
+.msg-sent {
+  text-align: center;
+  margin-top: 20%;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.load-bar {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.load-bar span {
+  background: #06caea;
+  height: 1px;
+  display: inline-block;
+  -webkit-animation: w100 3s ease forwards;
+}
+
+@keyframes w100 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.share-float {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+
+.iframe-messenger {
+  background-color: #0084FF;
+  padding: 10px;
+  border-radius: 20px;
+  color: #f1f1f1;
+  position: fixed;
+  bottom: 72px;
+  right: 15px;
+  display: none;
+}
+
+.iframe-messenger a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.iframe-messenger a img {
+  margin-left: 3px;
+}
+
+p.bottom-text {
+  font-size: 12px;
+  padding-bottom: 15px;
+}

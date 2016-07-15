@@ -1,0 +1,267 @@
+@media (max-width: 960px) {
+  body .content .you-get {
+    padding: 0 20px;
+  }
+  body .content .pizza {
+    width: 100%;
+  }
+  body .content .pizza span.pizza-text {
+    top: 0;
+    left: 10%;
+    font-size: 100px;
+  }
+  body .content .thank-you {
+    right: 20px;
+  }
+  body .content .bottom-text {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 870px) {
+  body .content .te-bagi {
+    font-size: 135px;
+  }
+  body .content .site-la {
+    left: 350px;
+  }
+}
+
+@media (max-width: 780px) {
+  body .content .pizza span.pizza-text {
+    left: 5%;
+  }
+  body .content .you-get span.plus .badges img {
+    margin: 0 20px;
+  }
+  body .content .offers {
+    height: 480px;
+  }
+  body .content .offers .offer .offer-body .offer-price .offer-price-currency {
+    margin-left: 150px;
+  }
+  body .content .offers .sm-offer .sm-offer-body .sm-offer-price .sm-offer-price-currency {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 700px) {
+  body .content .write-us {
+    top: 900px;
+  }
+  body .content .site-la {
+    left: 300px;
+    top: 20px;
+    font-size: 75px;
+  }
+  body .content .te-bagi {
+    font-size: 112px;
+    top: 245px;
+  }
+  body .content .stim-ca {
+    top: 230px;
+  }
+  body .content .pizza span.pizza-text {
+    font-size: 75px;
+  }
+  body .content .you-get {
+    margin-top: 475px;
+  }
+  body .content .push {
+    height: 1030px;
+  }
+  body .content .offers .sm-offer {
+    max-width: 300px;
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+  body .content .offers .offer {
+    max-width: 300px;
+    width: 100%;
+    float: none;
+    margin: 20px auto;
+    display: block;
+  }
+  body .you-get-title {
+    top: 955px;
+  }
+  body .write-us-title {
+    top: 3130px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 615px) {
+  body .write-us-title {
+    top: 3180px;
+  }
+  body .content .you-get span.plus .badges img {
+    margin: 0;
+    max-width: 32%;
+  }
+  body .content .you-get span.plus .badges img:nth-child(2) {
+    margin: 0 2%;
+  }
+}
+
+@media (max-width: 600px) {
+  body .content .pizza span.pizza-text {
+    font-size: 60px;
+  }
+  body .content .blue-square {
+    left: -820px;
+  }
+  body .content .site-name {
+    top: 107px;
+    left: 20px;
+  }
+  body .content .site-la {
+    left: 230px;
+  }
+  body .content .te-bagi {
+    left: 70px;
+  }
+  body .big-price span.number {
+    left: 20px;
+  }
+  body .big-price span.currency {
+    left: 30px;
+  }
+  body .you-get-title {
+    top: 1005px;
+  }
+}
+
+@media (max-width: 520px) {
+  body .content .site-la {
+    left: 190px;
+  }
+  body .content .te-bagi {
+    left: 50px;
+    font-size: 90px;
+  }
+  body .write-us-title {
+    top: 3240px;
+  }
+  body .iframe-messenger {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  body .content .site-la {
+    top: 35px;
+    font-size: 60px;
+  }
+  body .content .te-bagi {
+    top: 275px;
+  }
+  body .content .stim-ca {
+    top: 290px;
+  }
+  body .content .pizza {
+    top: 300px;
+  }
+  body .content .pizza span.permonth {
+    right: -40px;
+  }
+  body .content .write-us span.label-nume input, body .content .write-us span.label-firma input, body .content .write-us span.label-site input, body .content .write-us span.label-telefon input, body .content .write-us span.label-email input {
+    width: 100%;
+  }
+  body .content .write-us span.label-tip {
+    margin-left: 0;
+  }
+  body .content .write-us span.label-mesaj {
+    width: auto;
+  }
+  body .content .write-us span.label-mesaj textarea {
+    width: 96%;
+  }
+  body .content .thank-you {
+    bottom: 170px;
+  }
+  body .write-us-title {
+    top: 3350px;
+    font-size: 30px;
+  }
+  body .big-price span.number {
+    left: 55px;
+  }
+  body .big-price span.currency {
+    left: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  body .content .site-la {
+    font-size: 50px;
+    left: 180px;
+  }
+  body .content .te-bagi {
+    font-size: 73px;
+    top: 285px;
+  }
+  body .content .pizza span.pizza-text {
+    font-size: 53px;
+  }
+  body .big-price span.number {
+    font-size: 145px;
+  }
+  body .big-price span.currency {
+    top: -70px;
+  }
+  body .write-us-title {
+    font-size: 27px;
+    top: 3250px;
+  }
+}
+
+@media (max-width: 320px) {
+  body .content .site-name {
+    font-size: 20px;
+  }
+  body .content .blue-square {
+    left: -865px;
+    top: -305px;
+  }
+  body .content .site-la {
+    font-size: 45px;
+    top: 50px;
+    left: 150px;
+  }
+  body .content .te-bagi {
+    font-size: 70px;
+    top: 285px;
+    left: 20px;
+  }
+  body .content .pizza span.pizza-text {
+    font-size: 44px;
+  }
+  body .content .thank-you {
+    bottom: 200px;
+  }
+  body .content .offers .offer .offer-body .offer-price .offer-price-currency {
+    margin-left: 180px;
+  }
+  body .content .offers .sm-offer .sm-offer-body .sm-offer-price .sm-offer-price-currency {
+    margin-left: 180px;
+  }
+  body .content .offers .sm-offer .sm-offer-body .sm-offer-price .three-dig-cur {
+    margin-left: 190px;
+  }
+  body .big-price span.number {
+    left: 40px;
+  }
+  body .big-price span.currency {
+    left: 40px;
+  }
+  body .you-get-title {
+    top: 1100px;
+  }
+  body .write-us-title {
+    top: 3520px;
+    font-size: 22px;
+  }
+}

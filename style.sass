@@ -1,0 +1,429 @@
+$blue: #06caea
+$dark-grey: #565656
+$whiteish: #f1f1f1
+input, textarea, select, a
+	outline: none
+
+html
+	box-sizing:border-box
+*, *:after, *:before
+	box-sizing:inherit
+	border:0
+	margin:0
+	padding:0
+body
+	background-color:$whiteish
+	font-family: 'Roboto'
+	color:$dark-grey
+	box-sizing:border-box
+	margin-bottom:100px
+	height:100%
+.content
+	position: relative
+	left: 0
+	right: 0
+	max-width:960px
+	margin:0 auto
+	display:block
+	height: auto;
+	min-height: 100% !important;
+
+	.blue-square
+		position: absolute
+		top:-300
+		left:-730
+		width:850px
+		height:850px
+		background-color: $blue
+		transform: rotate(45deg)
+	.site-name
+		position: absolute
+		top:110px
+		left:50px
+		color: $whiteish
+		font-weight:100
+		font-size:26px
+		text-transform:uppercase
+	.site-la
+		position:relative
+		left:400px
+		font-size:100px
+		font-weight:100
+		text-transform:uppercase
+		display:inline-block
+	.te-bagi
+		position: relative
+		top: 200px
+		left: 140px
+		font-size: 180px
+		font-weight: 100
+		text-transform: uppercase
+		display: inline-block
+	.stim-ca
+		position:relative
+		top:200px
+		font-size: 30px
+		font-weight: 300
+		text-align: center
+	.pizza
+		position: relative
+		display: block
+		top: 250px
+		height: 120px
+		width: 100%
+		padding:0 20px
+		box-sizing: border-box
+		background: url('img/food-bkg.jpg')
+		background-attachment: fixed
+		background-size: cover
+		img
+			position:absolute
+			height:100%
+			width:auto
+			left:50px
+		span.pizza-text
+			position:absolute
+			top: -4px
+			left:0
+			color:$whiteish
+			font-size: 150px
+			font-weight:700
+			text-transform: uppercase
+			line-height:120px
+			display: inline-block
+			margin-left: 0px
+
+		span.permonth
+			position:absolute
+			right: 0px
+			top:45px
+			transform:rotate(270deg)
+			background-color: $dark-grey
+			width:120px
+			height:30px
+			color:$whiteish
+			text-transform: uppercase
+			font-size:27px
+			font-weight: 100
+			text-align: center
+			line-height: 30px
+	.you-get
+		position:relative
+		margin-top: 530px
+		font-size: 25px
+		font-weight:100
+		img
+			margin-right: 10px
+		span.plus
+			display: block
+			text-align: center
+			font-size: 50px
+			font-weight: 300
+			text-transform: uppercase
+			margin: 50px 0 30px 0;
+			.badges
+				padding-top:30px
+				img
+					margin:0 40px
+
+	.offers
+		padding-top:40px
+		margin-top:100px
+		height:444px
+		width:100%
+		box-sizing:border-box
+		.sm-offer
+			width:28%
+			text-align: center
+			position:relative
+			float: left
+			margin:0 1%
+			.sm-offer-title
+				font-size: 22px
+				text-transform: uppercase
+				font-weight:300
+				margin-bottom:5px
+			.sm-offer-body
+				border: 1px solid $blue
+				padding:15px 0 10px 0
+				.sm-offer-price
+					position:absolute
+					width:calc(100% - 2px)
+					height:50px
+					.sm-offer-price-number
+						position:absolute
+						margin-left:calc(50% - 28px)
+						top:-2px
+						font-size:50px
+						font-weight: 500
+						line-height: 50px
+					.three-dig
+						margin-left:calc(50% - 44px)
+					.sm-offer-price-currency
+						position:absolute
+						margin-left:160px
+						top:-10px
+						font-size:15px
+						font-weight: 500
+						line-height: 50px
+					.three-dig-cur
+						margin-left:175px
+				.sm-offer-get
+					margin-top:60px
+					font-size: 20px
+					font-weight: 300
+					p
+						margin:5
+					p.blue
+						color:$blue
+						text-transform: uppercase
+						font-weight: 500
+						margin-top: 15px
+			.sm-offer-body:hover
+					background-color: white
+		.offer
+			width:30%
+			text-align: center
+			position:relative
+			float: left
+			margin:-15px 5% 0 5%
+			.offer-title
+				font-size: 25px
+				text-transform: uppercase
+				font-weight:300
+				background-color:$blue
+				color:$whiteish
+				padding:5px
+			.offer-body
+				border: 1px solid $blue
+				padding:15px 0 10px 0
+				.offer-price
+					position:absolute
+					width:calc(100% - 2px)
+					height:50px
+					.offer-price-number
+						position:absolute
+						margin-left:calc(50% - 28px)
+						top:-2px
+						font-size:50px
+						font-weight: 500
+						line-height: 50px
+					.offer-price-currency
+						position:absolute
+						margin-left:170px
+						top:-10px
+						font-size:15px
+						font-weight: 500
+						line-height: 50px
+				.offer-get
+					margin-top:60px
+					font-size: 20px
+					font-weight: 300
+					p
+						margin:5
+					p.blue
+						color:$blue
+						text-transform: uppercase
+						font-weight: 500
+						margin-top: 15px
+			.offer-body:hover
+					background-color: white
+	.write-us
+		position:relative
+		top:250px
+		font-size: 29px
+		font-weight: 300
+		text-align: center
+		span
+			a
+				color:$blue
+				text-decoration: none
+
+		form
+			border: 2px solid $dark-grey
+			border-style: dashed
+			max-width: 582px
+			padding: 20px
+			padding-bottom: 45px
+			margin: 0 auto
+			margin-top: 50px
+		span.label
+			display: block
+			input
+				height:35px
+				font-size:29px
+				font-weight: 100 !important
+				color:$dark-grey
+				background-color: $whiteish
+				border:0px
+				border-bottom:1px solid #ddd
+			input:focus
+				border:1px solid #d8d8d8
+				background-color: #f9f9f9
+		span.label-tip
+			select
+				font-size:25px
+				font-weight:100
+				color:$blue
+				background-color: transparent
+		span.label-mesaj
+			position:relative
+			margin-top:20px
+			width: 522px
+			height:380px
+			margin:0 auto
+			top: 20px;
+
+			span
+				position:absolute
+				top:0
+				left:0
+				padding:0 5px 5px 0
+				z-index:999
+				background-color:$whiteish
+			textarea
+				position:absolute
+				top:20px
+				left:22px
+				border:1px solid #ddd
+				background-color:$whiteish
+				width:500px
+				height:280px
+				font-family: 'Roboto'
+				font-size: 25px;
+				color:$dark-grey
+				padding:10px
+				padding-top:20px
+				font-weight: 300
+			input[type="submit"]
+				position:absolute
+				bottom:0
+				right:0
+				background-color: $blue
+				height:50px
+				width:240px
+				color:white
+				font-family: 'Roboto'
+				font-size: 25px
+				font-weight: 300
+				border:0
+				cursor: pointer
+				transition: 500ms ease-in-out
+			input[type="submit"]:hover
+				background-color:white
+				color:$blue
+				border:1px solid $blue
+		span.label-nume
+			input
+				width:430px
+		span.label-email, span.label-firma
+			input
+				width:435px
+		span.label-site
+			input
+				width:390px
+		span.label-telefon
+			input
+				width:415px
+		span.label-tip
+			margin-left: -140px
+			margin-top:10px
+			select
+				width:230px
+	.push
+		position: relative
+		height:450px
+		z-index: -999
+
+	.thank-you
+		position:absolute
+		right: 0
+		bottom: 130px
+		font-size: 25px
+		font-weight: 300
+		span
+			color: $blue
+
+.big-price
+	position:absolute
+	top:150px
+	height:200px
+	width:100%
+	background-color:$dark-grey
+	text-align:center
+	color:$whiteish
+	span.number
+		position:relative
+		top:-5px
+		left:100px
+		height:200px
+		line-height: 200px;
+		font-size: 190px
+		font-weight: 500
+	span.currency
+		position:relative
+		top:-100px
+		left:100px
+		font-size: 50px
+		display: inline-block
+		line-height:40px
+		font-weight: 100
+.you-get-title, .write-us-title
+	position:absolute
+	top:1050px
+	height:80px
+	background-color:$blue
+	width:100%
+	text-align:center
+
+	font-size:50px
+	font-weight:100
+	line-height:80px
+	color:$whiteish
+	text-transform:uppercase
+
+.write-us-title
+	top:2500px
+	background-color:#C91A05
+	span
+		font-weight:500
+
+.msg-sent
+	text-align:center
+	margin-top:20%
+	font-size:50px
+	font-weight:100
+.load-bar
+	width:70%
+	margin: 0 auto
+	span
+		background: $blue
+		height:1px
+		display: inline-block
+		-webkit-animation: w100 3s ease forwards
+
+@keyframes w100
+    from { width: 0%; }
+    to { width: 100%; }
+.share-float
+	position: fixed
+	right:15px
+	bottom:15px
+
+.iframe-messenger
+	background-color: #0084FF
+	padding: 10px
+	border-radius:20px
+	color:$whiteish
+	position: fixed
+	bottom:72px
+	right:15px
+	display: none
+	a
+		text-decoration: none
+		color:#fff
+		img
+			margin-left: 3px
+p.bottom-text
+	font-size: 12px
+	padding-bottom: 15px
